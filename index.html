@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>MLBB FREE ACCOUNT</title> 
+  <style>
+/* Hacker Background */
+body{
+    margin:0;
+    font-family:monospace;
+    color:#00ff9f;
+    text-align:center;
+    background:black;
+    overflow:hidden;
+}
+
+/* Moving matrix effect */
+body::before{
+    content:"010101010101010101010101010101010101010101";
+    position:fixed;
+    top:0;
+    left:0;
+    width:200%;
+    height:200%;
+    color:#00ff9f22;
+    font-size:18px;
+    line-height:18px;
+    white-space:pre;
+    animation:move 10s linear infinite;
+}
+
+@keyframes move{
+    from{transform:translateY(-50%);}
+    to{transform:translateY(0%);}
+}
+
+/* Content box */
+.container{
+    position:relative;
+    z-index:2;
+    margin-top:120px;
+}
+
+/* Title */
+h1{
+    font-size:38px;
+    text-shadow:0 0 20px #00ff9f;
+    margin-bottom:40px;
+}
+
+/* Link style */
+a{
+    display:block;
+    color:#00ff9f;
+    margin-bottom:25px;
+    font-size:20px;
+    text-decoration:none;
+}
+
+a:hover{
+    text-shadow:0 0 10px #00ff9f;
+}
+
+/* Button */
+button{
+    padding:15px 40px;
+    font-size:20px;
+    background:black;
+    border:2px solid #00ff9f;
+    color:#00ff9f;
+    cursor:pointer;
+    transition:.3s;
+    box-shadow:0 0 15px #00ff9f;
+}
+
+button:hover{
+    background:#00ff9f;
+    color:black;
+    box-shadow:0 0 25px #00ff9f;
+}
+</style> 
+ </head> 
+ <body> 
+  <div class="container"> 
+   <h1>MLBB FREE ACCOUNT</h1> <!-- Clickable Link --> <a href="http://127.0.0.1:8080" target="_blank"> http://127.0.0.1:8080 </a> <!-- FREE Button --> <button onclick="openSite()">FREE</button> 
+  </div> 
+  <script>
+function openSite(){
+    window.open("http://127.0.0.1:8080", "_blank");
+}
+</script> 
+ </body>
+</html>
